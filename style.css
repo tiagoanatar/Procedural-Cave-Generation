@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0; 
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #444;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.map {
+  background-color: #000;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 0 10px 10px;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/*--------------------------------*/
+/* map style */
+/*--------------------------------*/
+
+.map_grid {
+  width: 10px;
+  height: 10px;
+  border: 0px solid #fff;
+}
+
+/* free - green */
+.mg_a {
+  background-color: #719621;
+}
+
+/* block - dark */
+.mg_b {
+  background-color: #555;
+}
+
+/* area */
+.area_0 {background-color: oldlace;}
+.area_1 {background-color: maroon;}
+.area_2 {background-color: blue;}
+.area_3 {background-color: yellow;}
+.area_4 {background-color: rosybrown;}
+.area_5 {background-color: teal;}
+.area_6 {background-color: navy;}
+.area_7 {background-color: grey;}
+.area_8 {background-color: crimson;}
+.area_9 {background-color: darkgoldenrod;}
+.area_10 {background-color: darksalmon;}
+.area_11 {background-color: darkslategrey;}
+.area_12 {background-color: darkturquoise;}
+.area_13 {background-color: gold;}
+.area_14 {background-color: lavenderblush;}
+.area_15 {background-color: lemonchiffon;}
+.area_16 {background-color: lightpink;}
+.area_17 {background-color: lightslategray;}
+
+/* main room */
+.main {
+  border: 1px solid red;
+  background-color: black!important; 
+}
+
+/* connection */
+.connection {background-color: pink;}
+
